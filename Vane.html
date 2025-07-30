@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicios</title>
+    <style>
+        body {
+            display: flex;
+            font-family: sans-serif;
+            gap: 30px;
+            padding: 20px;
+        }
+
+        .panel {
+            flex: 1;
+        }
+
+        #solucion {
+            border: 1px solid #aaa;
+            padding: 10px;
+            background: #f3f3f3;
+            min-height: 200px;
+            white-space: pre-wrap;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        button {
+            display: block;
+            margin-bottom: 10px;
+            padding: 8px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="panel">
+        <h2>Ejercicios</h2>
+        <button onclick="ejercicio1()">1. Definición de variables</button>
+        <button onclick="ejercicio2()">2. Concatenación</button>
+        <button onclick="ejercicio3()">3. Leer y Escribir</button>
+        <button onclick="ejercicio4()">4. Área de un círculo</button>
+        <button onclick="ejercicio5()">5. Votación lógica</button>
+        <button onclick="ejercicio6()">6. Condicional simple</button>
+        <button onclick="ejercicio7()">7. Condicional doble</button>
+        <button onclick="ejercicio8()">8. Condicional anidado</button>
+        <button onclick="ejercicio9()">9. Promedio y aprobación</button>
+        <button onclick="ejercicio10()">10. Subsidio</button>
+    </div>
+
+    <div class="panel">
+        <h2>Solución</h2>
+        <div id="solucion">Haz clic en un ejercicio para ver la solución aquí.</div>
+    </div>
+
+    <script src="./Vane.js"></script>
+</body>
+
+</html>
